@@ -1,0 +1,7 @@
+trailingComma: "es5"
+tabWidth: 2
+useTabs: false
+proseWrap: "always"
+printWidth: 80
+semi: false
+singleQuote: true
