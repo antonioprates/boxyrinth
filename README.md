@@ -4,6 +4,10 @@
 
 A sokoban revamped board game in an alien sci-fi universe.
 
+A public test of this game has been released on Google Play Store:
+[boxyrinth for Android on Play Store]
+(https://play.google.com/store/apps/details?id=dev.aprates.boxyrinth)
+
 Game was developed using:
 - [Typescript](https://www.typescriptlang.org/)
 - [React Native](https://reactnative.dev/)
