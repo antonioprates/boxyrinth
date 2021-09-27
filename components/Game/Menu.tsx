@@ -163,11 +163,11 @@ class Menu extends Component<props, state> {
     this.setState({
       board: null, // destroy current progress, forcing a reset
       difficulty:
-        this.state.difficulty === difficulty.piceOfCake // increase to
+        this.state.difficulty === difficulty.pieceOfCake // increase to
           ? difficulty.challenging
           : this.state.difficulty === difficulty.challenging // increase to
           ? difficulty.whenPigsFly // or else, start over with...
-          : difficulty.piceOfCake,
+          : difficulty.pieceOfCake,
     })
 
   getDifficulty = () => {
@@ -175,8 +175,8 @@ class Menu extends Component<props, state> {
       case difficulty.whenPigsFly:
         return ':: when pigs fly'
 
-      case difficulty.piceOfCake:
-        return '. pice of cake'
+      case difficulty.pieceOfCake:
+        return '. piece of cake'
 
       case difficulty.challenging:
       default:

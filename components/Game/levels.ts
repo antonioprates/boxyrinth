@@ -3,7 +3,7 @@ import { blocks as b, matrix } from '../GridBoard'
 export enum difficulty {
   whenPigsFly,
   challenging,
-  piceOfCake,
+  pieceOfCake,
 }
 
 export interface Level {
