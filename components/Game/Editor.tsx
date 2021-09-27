@@ -229,12 +229,12 @@ class Editor extends Component<props, state> {
   copyMaze = (): boolean => {
     const { board } = this.state
     setToClipboard(JSON.stringify({ maze: board }))
+    this.setMessage('maze copied to clipboard')
     return true
   }
 
   loadMaze = (): void => {
     fetchClipboard(this.loadMazeResult)
-    this.setMessage('maze copied to clipboard')
   }
 
   loadMazeResult = (str: string): void => {
