@@ -158,21 +158,8 @@ export const levels: Array<Level> = [
      ],
   },
   {
-    name: 'narrow way',
-    stage: 'red',
-    message: 'I feel a bit claustrophobic',
-    blocked: true,
-    time: 60,
-    // prettier-ignore
-    maze: [
-      [b.emp, b.spt, b.flr, b.flr, b.spt, b.emp, b.emp, b.flr, b.sbx, b.flr, b.sbx, b.flr, b.flr, b.flr, b.flr, b.flr, b.emp],
-      [b.plr, b.flr, b.flr, b.flr, b.flr, b.flr, b.flr, b.flr, b.box, b.flr, b.box, b.flr, b.box, b.flr, b.box, b.flr, b.cpt],
-      [b.emp, b.spt, b.flr, b.flr, b.spt, b.emp, b.emp, b.flr, b.sbx, b.flr, b.flr, b.flr, b.sbx, b.flr, b.flr, b.flr, b.emp],
-    ],
-  },
-  {
     name: "let's dance",
-    stage: 'red',
+    stage: 'green',
     message: 'sometimes you have bad luck',
     blocked: true,
     time: 60,
@@ -186,6 +173,19 @@ export const levels: Array<Level> = [
       [b.emp, b.emp, b.emp, b.emp, b.emp, b.flr, b.flr, b.flr, b.flr, b.flr, b.flr, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp],
       [b.emp, b.emp, b.emp, b.emp, b.emp, b.flr, b.flr, b.emp, b.flr, b.aln, b.flr, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp],
       [b.emp, b.emp, b.emp, b.emp, b.emp, b.flr, b.flr, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp, b.emp],
+    ],
+  },
+  {
+    name: 'narrow way',
+    stage: 'red',
+    message: 'I feel a bit claustrophobic',
+    blocked: true,
+    time: 60,
+    // prettier-ignore
+    maze: [
+      [b.emp, b.spt, b.flr, b.flr, b.spt, b.emp, b.emp, b.flr, b.sbx, b.flr, b.sbx, b.flr, b.flr, b.flr, b.flr, b.flr, b.emp],
+      [b.plr, b.flr, b.flr, b.flr, b.flr, b.flr, b.flr, b.flr, b.box, b.flr, b.box, b.flr, b.box, b.flr, b.box, b.flr, b.cpt],
+      [b.emp, b.spt, b.flr, b.flr, b.spt, b.emp, b.emp, b.flr, b.sbx, b.flr, b.flr, b.flr, b.sbx, b.flr, b.flr, b.flr, b.emp],
     ],
   },
   {
