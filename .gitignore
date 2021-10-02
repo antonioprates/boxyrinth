@@ -12,3 +12,5 @@ web-report/
 .DS_Store
 assets/sound/
 assets/music/
+screenshots/
+bin/
