@@ -8,7 +8,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -27,7 +27,12 @@
     },
     "android": {
       "package": "dev.aprates.boxyrinth",
-      "versionCode": 2
+      "versionCode": 3
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9cc85255-ef0a-41c6-a009-60a005906eef"
+      }
     }
   }
 }

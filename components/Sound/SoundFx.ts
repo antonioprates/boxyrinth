@@ -74,8 +74,6 @@ const setVolume = async (soundObject: Audio.Sound, volume: number) => {
 const play = async (soundObject: Audio.Sound) => {
   const tolerance = { toleranceMillisAfter: 50, toleranceMillisBefore: 50 }
   try {
-    // workaround: have to call it twice to fix a bug on android
-    // await soundObject.playFromPositionAsync(0, tolerance);
     await soundObject.playFromPositionAsync(0, tolerance)
   } catch (error) {
     console.error('SoundFx: could not play', error)

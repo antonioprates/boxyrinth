@@ -1,7 +1,7 @@
 /******************************************************************************
  * boxyrinth                                                                  *
  * a sokoban revamped board game in an alien sci-fi universe                  *
- * Author: Antonio Prates [hello@aprates.dev], 2019-2021                      *
+ * Author: Antonio Prates [hello@aprates.dev], 2019-2023                      *
  *****************************************************************************/
 
 import React from 'react'

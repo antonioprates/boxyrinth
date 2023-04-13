@@ -61,7 +61,6 @@ const playMusic = async (soundObject: Audio.Sound, volume: number) => {
     await soundObject.setIsLoopingAsync(true)
     await soundObject.setVolumeAsync(volume)
     await soundObject.playFromPositionAsync(0)
-    //await soundObject.setIsMutedAsync(false);
   } catch (error) {
     console.error('Music: could not play', error)
   }
@@ -70,7 +69,6 @@ const playMusic = async (soundObject: Audio.Sound, volume: number) => {
 
 const stopMusic = async (soundObject: Audio.Sound) => {
   try {
-    //console.log(await soundObject.setIsMutedAsync(true));
     await soundObject.stopAsync()
   } catch (error) {
     console.error('Music: could not stop', error)

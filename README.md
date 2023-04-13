@@ -16,4 +16,4 @@ Game was developed using:
 
 Project sources are released under [MIT License](./LICENSE.md).
 
-Soundtrack assets are intelectual property of Antonio Prates and are not made publically available. Yet, as a quick solution to be able to pack and run, you can replace `const mp3Files` under `components/Sound/Music.ts` and `components/Sound/SoundFx.ts` with the "free replacement" silence mp3 file.
+Soundtrack assets are intellectual property of Antonio Prates and are not made publically available. Yet, as a quick solution to be able to pack and run, you can replace `const mp3Files` under `components/Sound/Music.ts` and `components/Sound/SoundFx.ts` with the "free replacement" silence mp3 file.
